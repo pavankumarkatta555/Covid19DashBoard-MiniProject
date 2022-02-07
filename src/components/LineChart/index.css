@@ -1,0 +1,52 @@
+.line-chart-container {
+  display: block;
+}
+
+.line-chart-lg-container {
+  display: none;
+}
+
+.line-chart-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .line-chart-container {
+    display: none;
+  }
+
+  .line-chart-lg-container {
+    display: block;
+  }
+}
+
+.confirmed {
+  background-color: #331427;
+  color: #ff073a;
+}
+
+.active {
+  background-color: #132240;
+  color: #007bff;
+}
+
+.recovered {
+  background-color: #182829;
+  color: #28a745;
+}
+
+.deceased {
+  background-color: #212230;
+  color: #6c757d;
+}
+
+.tested {
+  background-color: #230f41;
+  color: #9673b9;
+}

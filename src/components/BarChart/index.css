@@ -1,0 +1,17 @@
+.sm-bar-chart {
+  display: block;
+}
+
+.lg-bar-chart {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sm-bar-chart {
+    display: none;
+  }
+
+  .lg-bar-chart {
+    display: block;
+  }
+}
