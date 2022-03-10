@@ -372,7 +372,7 @@ class Home extends Component {
             <p className="state-wise-covid-cases-headings">Deceased</p>
             <p className="state-wise-covid-cases-headings">Population</p>
           </div>
-          <hr />
+          <hr className="home-hr-line" />
           <ul className="state-wise-covid-cases-table-unordered-list">
             {stateWiseDataList.map(eachState => {
               const {
@@ -431,6 +431,7 @@ class Home extends Component {
           <Link
             to={`/state/${eachStateItem.state_code}`}
             className="nav-state-links-list"
+            key={eachStateItem.state_code}
           >
             <li className="search-result-list-item">
               <p className="search-result-state-name">

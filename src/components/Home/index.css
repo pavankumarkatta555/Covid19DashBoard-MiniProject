@@ -71,9 +71,9 @@
 
 .state-wise-covid-cases-table-container {
   background: #1e1e30;
-  width: 86%;
   border: 1px solid #475569;
   border-radius: 12px;
+  width: 86%;
 }
 
 .state-wise-covid-cases-table-headings-container {
@@ -110,6 +110,26 @@
   font-size: 16px;
   line-height: 24px;
   color: #f8fafc;
+}
+
+@media (max-width: 767px) {
+  .state-wise-covid-cases-table-container {
+    width: 96%;
+    overflow: auto;
+  }
+
+  .state-wise-covid-cases-table-headings-container {
+    width: 870px;
+  }
+
+  .home-hr-line {
+    width: 920px;
+  }
+
+  .state-wise-covid-cases-table-unordered-list {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 .confirmed-cases-color {

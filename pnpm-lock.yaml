@@ -4,11 +4,13 @@ dependencies:
   '@testing-library/user-event': 12.6.2
   '@wojtekmaj/enzyme-adapter-react-17': 0.6.3_ed988ebff08079c40ff9e87e2acc78b3
   chalk: 4.1.0
+  chart.js: 3.7.1
   enzyme: 3.11.0
   history: 5.0.1
   js-cookie: 3.0.1
   msw: 0.35.0
   react: 17.0.1
+  react-chartjs-2: 4.0.1_chart.js@3.7.1+react@17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.3.1_react@17.0.1
   react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
@@ -4875,6 +4877,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
+  /chart.js/3.7.1:
+    dev: false
+    resolution:
+      integrity: sha512-8knRegQLFnPQAheZV8MjxIXc5gQEfDFD897BJgv/klO/vtIyFFmgMXrNfgrXpbTr/XbTturxRgxIXx/Y+ASJBA==
   /check-types/11.1.2:
     dev: true
     resolution:
@@ -11755,6 +11761,16 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-0sF4ny9v/B7s6aoehwze9vJNWcmCemAUYBVasscVr92+UYiEqDXOxfKjXN685mDaMRNF3WdhHQs76oTODMocFA==
+  /react-chartjs-2/4.0.1_chart.js@3.7.1+react@17.0.1:
+    dependencies:
+      chart.js: 3.7.1
+      react: 17.0.1
+    dev: false
+    peerDependencies:
+      chart.js: ^3.5.0
+      react: ^16.8.0 || ^17.0.0
+    resolution:
+      integrity: sha512-q8bgWzKoFvBvD7YcjT/hXG8jt55TaMAuJ1dmI3tKFJ7CijUWYz4pIfOhkTI6PBTwqu/pmeWsClBRd/7HiWzN1g==
   /react-dev-utils/11.0.4:
     dependencies:
       '@babel/code-frame': 7.10.4
@@ -14709,6 +14725,7 @@ specifiers:
   '@testing-library/user-event': 12.6.2
   '@wojtekmaj/enzyme-adapter-react-17': 0.6.3
   chalk: 4.1.0
+  chart.js: 3.7.1
   enzyme: 3.11.0
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
@@ -14721,6 +14738,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.2.1
   react: 17.0.1
+  react-chartjs-2: 4.0.1
   react-dom: 17.0.1
   react-icons: 4.3.1
   react-loader-spinner: 4.0.0

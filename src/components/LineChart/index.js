@@ -12,6 +12,7 @@ const strokeColoursList = [
 const LineChartUsingData = props => {
   const {chartData, indexNo} = props
   const data = chartData[indexNo]
+  const smData = chartData[indexNo].slice(0, 15)
   const strokeColor = strokeColoursList[indexNo]
 
   let lineChartBg
@@ -38,7 +39,7 @@ const LineChartUsingData = props => {
     <>
       <div className={`line-chart-container ${lineChartBg}`}>
         <p className="line-chart-name">{lineChartName}</p>
-        <LineChart width={330} height={190} data={data}>
+        <LineChart width={330} height={190} data={smData}>
           <XAxis
             dataKey="date"
             tick={{stroke: strokeColor, strokeWidth: 1}}
@@ -46,6 +47,7 @@ const LineChartUsingData = props => {
             axisLine={{stroke: strokeColor}}
           />
           <YAxis
+            type="number"
             tick={{stroke: strokeColor, strokeWidth: 1}}
             tickLine={{stroke: strokeColor}}
             axisLine={{stroke: strokeColor}}

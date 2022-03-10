@@ -16,146 +16,218 @@ const statesList = [
   {
     state_code: 'AN',
     state_name: 'Andaman and Nicobar Islands',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396358/Group_7362_hox6et.png',
   },
   {
     state_code: 'AP',
     state_name: 'Andhra Pradesh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646395097/Group_7354_fpvbd8.png',
   },
   {
     state_code: 'AR',
     state_name: 'Arunachal Pradesh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396155/Group_7340_qraenz.png',
   },
   {
     state_code: 'AS',
     state_name: 'Assam',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396138/Group_7341_n8m2ag.png',
   },
   {
     state_code: 'BR',
     state_name: 'Bihar',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396030/Group_7335_upynpx.png',
   },
   {
     state_code: 'CH',
     state_name: 'Chandigarh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396365/Group_7361_lvuo8g.png',
   },
   {
     state_code: 'CT',
     state_name: 'Chhattisgarh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396221/Group_7353_wblxx5.png',
   },
   {
     state_code: 'DN',
     state_name: 'Dadra and Nagar Haveli and Daman and Diu',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396348/Group_7357_zjknsj.png',
   },
   {
     state_code: 'DL',
     state_name: 'Delhi',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396329/Group_7358_tswci8.png',
   },
   {
     state_code: 'GA',
     state_name: 'Goa',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396118/Group_7349_mr9xnv.png',
   },
   {
     state_code: 'GJ',
     state_name: 'Gujarat',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396052/Group_7337_tgqrwx.png',
   },
   {
     state_code: 'HR',
     state_name: 'Haryana',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396000/Group_7332_dod6pm.png',
   },
   {
     state_code: 'HP',
     state_name: 'Himachal Pradesh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646395963/Group_7364_yk3hyy.png',
   },
   {
     state_code: 'JK',
     state_name: 'Jammu and Kashmir',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646395949/Group_7328_ynzjkw.png',
   },
   {
     state_code: 'JH',
     state_name: 'Jharkhand',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396198/Group_7342_fzwydb.png',
   },
   {
     state_code: 'KA',
     state_name: 'Karnataka',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396292/Group_7339_g2jbic.png',
   },
   {
     state_code: 'KL',
     state_name: 'Kerala',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396297/Group_7355_ypeomd.png',
   },
   {
     state_code: 'LA',
     state_name: 'Ladakh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396321/Group_7363_oeakqj.png',
   },
   {
     state_code: 'LD',
     state_name: 'Lakshadweep',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396342/Group_7359_jkploz.png',
   },
   {
     state_code: 'MH',
     state_name: 'Maharashtra',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396277/Group_7350_tcmlpl.png',
   },
   {
     state_code: 'MP',
     state_name: 'Madhya Pradesh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396040/Group_7336_l3hbam.png',
   },
   {
     state_code: 'MN',
     state_name: 'Manipur',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396079/Group_7346_cjagnr.png',
   },
   {
     state_code: 'ML',
     state_name: 'Meghalaya',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396102/Group_7344_beqvpl.png',
   },
   {
     state_code: 'MZ',
     state_name: 'Mizoram',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396069/Group_7347_xzupcv.png',
   },
   {
     state_code: 'NL',
     state_name: 'Nagaland',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396090/Group_7345_qoaaoa.png',
   },
   {
     state_code: 'OR',
     state_name: 'Odisha',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396271/Group_7348_c6m6oy.png',
   },
   {
     state_code: 'PY',
     state_name: 'Puducherry',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396336/Group_7360_ycwqfi.png',
   },
   {
     state_code: 'PB',
     state_name: 'Punjab',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646395981/Group_7330_wr0ytp.png',
   },
   {
     state_code: 'RJ',
     state_name: 'Rajasthan',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396012/Group_7333_x7aqow.png',
   },
   {
     state_code: 'SK',
     state_name: 'Sikkim',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396166/Group_7338_ancf90.png',
   },
   {
     state_code: 'TN',
     state_name: 'Tamil Nadu',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396306/Group_7356_tinfcb.png',
   },
   {
     state_code: 'TG',
     state_name: 'Telangana',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396284/Group_7351_ou57vk.png',
   },
   {
     state_code: 'TR',
     state_name: 'Tripura',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396211/Group_7352_p2yvnn.png',
   },
   {
     state_code: 'UP',
     state_name: 'Uttar Pradesh',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396021/Group_7334_kyadof.png',
   },
   {
     state_code: 'UT',
     state_name: 'Uttarakhand',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646395992/Group_7331_ahwzti.png',
   },
   {
     state_code: 'WB',
     state_name: 'West Bengal',
+    map_url:
+      'https://res.cloudinary.com/dvzwomefi/image/upload/v1646396188/Group_7343_mepfb7.png',
   },
 ]
 
@@ -214,6 +286,21 @@ const month = [
   'October',
   'November',
   'December',
+]
+
+const mon = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
 ]
 
 const lineChartIndex = [0, 1, 2, 3, 4]
@@ -314,6 +401,10 @@ class StateDetails extends Component {
     dateTimeLinesData.forEach(each => {
       const cases = each[activeCovidSelectCard.toLowerCase()]
 
+      const newDate = new Date(each.date)
+
+      const monthAndDate = `${newDate.getDate()} ${mon[newDate.getMonth()]}`
+
       let count
 
       if (cases > 100000) {
@@ -325,7 +416,7 @@ class StateDetails extends Component {
       }
 
       barChartData.push({
-        date: each.date,
+        date: monthAndDate,
         count,
         cases,
       })
@@ -358,7 +449,10 @@ class StateDetails extends Component {
 
     return (
       <>
-        <BarChartUsingData barChartData={barChartData} />
+        <BarChartUsingData
+          barChartData={barChartData}
+          colorId={activeCovidSelectCard}
+        />
         <div className="line-chart-unordered-list" testid="lineChartsContainer">
           <h1 className="line-chart-heading">Daily Spread Trends</h1>
           {lineChartIndex.map(each => (
@@ -502,6 +596,33 @@ class StateDetails extends Component {
             )
           })}
         </ul>
+        <div className="map-ncp-report-container">
+          <img
+            src={individualStateName.map_url}
+            alt="map"
+            className="map-logo"
+          />
+          <div className="ncp-population-tested-container">
+            <h3 className="ncp-heading">NCP Report </h3>
+            <div className="population-tested-container">
+              <div className="population-container">
+                <p className="map-population-heading">Population</p>
+                <p className="map-population">
+                  {stateWiseCovidDataDetailsList.meta.population}
+                </p>
+              </div>
+              <div className="map-tested-container">
+                <p className="map-population-heading">Tested</p>
+                <p className="map-population">
+                  {stateWiseCovidDataDetailsList.total.tested}
+                </p>
+                <p className="map-tested-description">
+                  (As of 29 March per source)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <h1 className="top-districts-heading">Top Districts</h1>
         <ul
           className="state-name-cases-unordered-list"

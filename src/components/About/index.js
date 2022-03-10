@@ -44,7 +44,6 @@ class About extends Component {
 
   apiStatusOnSuccess = () => {
     const {aboutDetailsList} = this.state
-    console.log(aboutDetailsList)
 
     return (
       <div className="about-responsive-container">
